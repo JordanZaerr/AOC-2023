@@ -21,9 +21,6 @@ namespace Day8
             timer.Stop();
             Console.WriteLine($"{timer.ElapsedMilliseconds}ms");
 
-            if (useSampleData) LoadSampleData();
-            else LoadData();
-
             Console.WriteLine("\r\nPart 2");
             timer.Restart();
             Part2();
